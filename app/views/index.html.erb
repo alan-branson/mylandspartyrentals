@@ -1,1 +1,14 @@
-<h1 class="text-center">Welcome to Myland's Party Rentals and Frozen Tropics of KC</h1>
+<% provide(:title, "Home") %>
+<h1 id="indxh1" class="text-center">Welcome To...<br/> Myland's Party Rentals &<br/> Frozen Tropics of KC</h1>
+<br/>
+<div id="indx" class="container mt-4">
+    <div class=" row">
+        <div id="myland" class="col-md-6 mt-4">
+            <%= image_tag("myland.jpg", class: "img-thumbnail rounded-circle", alt: "Myland's Party Rentals") %>
+        </div>
+
+        <div id="frozen" class="col-md-6 d-flex align-items-center mt-4">
+            <%= image_tag("frozen-tropics-kc.jpg", class: "img-thumbnail rounded-pill", alt: "Frozen Tropics OF KC") %>
+        </div>
+    </div>
+</div>

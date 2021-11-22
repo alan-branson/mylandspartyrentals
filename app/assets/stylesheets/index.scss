@@ -1,0 +1,34 @@
+body {
+    background-image: url("tropic.jpg");
+    background-repeat: no-repeat;
+}
+
+#indxh1 {
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+#myland {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#frozen {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+nav {
+    ul {
+        li {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

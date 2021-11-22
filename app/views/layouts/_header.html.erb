@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
+    <div class="container-fluid">
+        <%=link_to "Home", root_path, class: "ms-5 me-5"%>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarLight">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item me-5">
+                <%= link_to "Myland's Party Rentals", "#" %>
+            </li>
+            <li class="nav-item me-5">
+                <%= link_to "Frozen Tropics KC", "#" %>
+            </li>
+            <li class="nav-item me-5">
+                <%= link_to "About Us", "#" %>
+            </li>
+            <li class="nav-item text-danger">
+                Schedule a rental with Jason or Amy Hansen (816) 839-8799
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
